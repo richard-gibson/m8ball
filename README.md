@@ -39,7 +39,7 @@ erl -sname c -config config/c -pa ebin/
 ```
 In each erlang terminal start m8ball and crypto applications
 
-``erlang
+```erlang
 [ application:start(AppName) || AppName<- [crypto, m8ball]].
 ```
 
